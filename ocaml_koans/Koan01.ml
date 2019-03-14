@@ -8,6 +8,7 @@
     # 1.0 ;;
     # [0; 1; 2] ;;
     # (0.1; 2.3; 3.4) ;;
+*)
 
 (* there is an essential truth to the universe that can be employed. *)
 let t =
