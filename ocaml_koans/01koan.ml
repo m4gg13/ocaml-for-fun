@@ -1,14 +1,16 @@
-(* meditations *)
+(* basic logic meditations *)
 
 (* things in the universe have defining characteristics. according
    to the directions in the README file, access the OCaml REPL. In
    OCaml, each expression has a type. run each of the following and
    observe the output.
+    # () ;;
     # 1 ;;
     # 1.0 ;;
     # [0; 1; 2] ;;
     # (0.1; 2.3; 3.4) ;;
 *)
+
 
 (* there is an essential truth to the universe that can be employed. *)
 let t =
@@ -16,6 +18,9 @@ let t =
 
 let f = 
   not false = _
+
+let noteq =
+  false = _
 
 (* such as the fact that things can be combined... *)
 let add = 
@@ -25,8 +30,7 @@ let add =
 let sub =
   2 - 1 = _
 
-(* or that you must be sensitive to how things are identified when 
-   interacting with them. *)
+(* or that you must be sensitive to how things are identified when interacting with them. *)
 let floatadd = 
   1.0 +. 2.0 = _
 
@@ -61,7 +65,14 @@ let () =
   print_string "Testing part 4 ... " ;
   try
 
-    assert (insert_by compare 4 Nil = Leaf 4);
+    assert (t);
+    assert (f);
+    assert (noteq);
+    assert (add);
+    assert (sub);
+    assert (floatadd);
+    assert (floatsub);
+    assert (none);    
 
         print_string "tests passed.\n"
   with

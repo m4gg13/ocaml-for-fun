@@ -1,6 +1,14 @@
 Ocaml Koans
 
+some sort of note about asserts is necessary here
+
+also make this more concise!!
+
 Ocaml Koans are an easy way to get familiar with the functionality of the functional language Ocaml. You may even find that you learn some more broadly reaching lessons along the way!
+
+These Koans were inspired by Clojure Koans, found at https://github.com/functional-koans/clojure-koans and written by user trptcolin. 
+
+A comprehensive table of contents can be found in CONTENTS.txt.
 
 To begin,
 1. Install Opam 
@@ -24,7 +32,11 @@ To begin,
     ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html
     ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/String.html
 5. Test your answers for Koan01
-  - Run
-     # #use "Koan01.ml" ;;
-  - Observe the feedback messages and proceed accordingly.
+  - Way 2
+    ☆ On the command line, run
+      $ ocaml Koan01.ml
+  - Way 1
+    ☆ In the OCaml REPL, run
+       # #use "Koan01.ml" ;;
+    ☆ Observe the feedback messages and proceed accordingly.
 6. Be persistent; do not give up along The Way.
