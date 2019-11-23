@@ -1,16 +1,22 @@
 #Ocaml Koans
 
+
 (some sort of note about asserts is necessary here)
 
 (also make this more concise!!)
 
 Ocaml Koans are an easy way to get familiar with the functionality of the functional language Ocaml. You may even find that you learn some more broadly reaching lessons along the way!
 
+
 These Koans were inspired by Clojure Koans, found at https://github.com/functional-koans/clojure-koans and written by user trptcolin. 
+
 
 A comprehensive table of contents can be found in CONTENTS.txt.
 
+
 To begin,
+
+
 1. Install Opam 
   - Opam is an Ocaml package manager. It will make installation of Ocaml a breeze.
 2. Install Ocaml
