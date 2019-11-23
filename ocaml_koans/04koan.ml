@@ -10,8 +10,9 @@ let cardsinadeck =
 let cardscollected =
   47
 
+(* 
 let fair =
-  if cardsinadeck = cardscollected 
+  if cardsinadeck == cardscollected 
   then "you found all of the cards!" 
   else "some cards are still missing."
 
@@ -25,4 +26,8 @@ let clubs =
 let spades =
   12
 
-let haveallhearts
+let haveallhearts =
+  if hearts == 12
+  then "all hearts are present"
+  else "you're missing some!"
+
