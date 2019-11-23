@@ -32,6 +32,8 @@ To begin,
      $ ocaml
 ```
   - The REPL is an interactive environment in which you can use Ocaml in real time.
+
+
     ☆ You may try it out by running something like
 ```
        # 41 + 1 ;;
@@ -39,20 +41,34 @@ To begin,
 4. Open and edit the first Koan file, Koan01
   - Attempt to answer the questions correctly. 
   - Feel free to browse resources such as Ocaml documentation, found at https://caml.inria.fr/pub/docs/manual-ocaml/libref/
+
+
     ☆ The most useful pages from this website are the following:
+
+
     ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html
+
+
     ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html
+
+
     ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/String.html
 5. Test your answers for Koan01
   - Way 2
+
+
     ☆ On the command line, run
 ```
       $ ocaml Koan01.ml
 ```
   - Way 1
+
+
     ☆ In the OCaml REPL, run
 ```
        # #use "Koan01.ml" ;;
 ```
+
+
     ☆ Observe the feedback messages and proceed accordingly.
 6. Be persistent; do not give up along The Way.

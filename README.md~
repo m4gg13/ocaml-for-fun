@@ -1,4 +1,4 @@
-#Ocaml Koans
+# OCAML KOANS
 
 
 (some sort of note about asserts is necessary here)
