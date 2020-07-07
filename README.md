@@ -1,36 +1,74 @@
-## Mastermind Codebreaker
-
-# An agent made to generate and play a classic game of Mastermind!
+# OCAML KOANS
 
 
-This lovely agent uses a generational Genetic Algorithm with a Wisdom of the Artificial
-Crowd modification. The number of generations per guess, percentage of mutations per
-generation, size of the expert group per generation, and more can be easily changed
-by an adjustment of the global variables. Perhaps more notably, the number of colors
-to choose from and the length of the solution can also be changed by way of a global
-variable adjustment.
+(some sort of note about asserts is necessary here)
+
+(also make this more concise!!)
+
+Ocaml Koans are an easy way to get familiar with the functionality of the functional language Ocaml. You may even find that you learn some more broadly reaching lessons along the way!
 
 
-See the included report for a detailed literature review of work in the field,
-a thorough explaination of the structure of the code, and the results of the
-experiments surrounding the code. This code was adapted from
-[this] (https://github.com/NathanDuran/Mastermind-Five-Guess-Algorithm) Five Guess
-Algorithm. I adapted it in the first place for the writing-intensive Introduction to
-Artificial Intelligence class, CSCI4511W at the University of Minnesota Twin Cities.
+These Koans were inspired by Clojure Koans, found at https://github.com/functional-koans/clojure-koans and written by user trptcolin. 
 
 
-# 6 July 2020
+A comprehensive table of contents can be found in CONTENTS.txt.
 
-This code is in an unfinished state at the moment. Everything originially was both
-a.) working and b.) in one file, but it was in need of revision and could be made
-much more concise. I split out one of the most challenging elements of the algorithm
-to the mom_neater.cpp file, a more tidy decendant of an original mom.cpp where I laid the
-foundation for a Median of Medians algorithm to find the string with the highest rate of
-commonality of a collection of strings.
 
-I also intend to refine the fitness function. This is the way in which a permutation
-is assigned a value of fitness. Each permutation needs to be compared against a growing
-number of rules and this work can certainly be done more efficiently. 
+To begin,
 
-Perhaps it should be noted that this is my first experience writing C++... I may be
-ignorant of C++ conventions. 
+
+1. Install Opam 
+  - Opam is an Ocaml package manager. It will make installation of Ocaml a breeze.
+2. Install Ocaml
+  - Run 
+```
+     $ opam install ocaml
+```
+  - In response to this, your shell should guide you through the installation of Ocaml.
+  - For troubleshooting, refer to https://opam.ocaml.org/
+3. Access the Ocaml REPL
+  - Run
+```
+     $ ocaml
+```
+  - The REPL is an interactive environment in which you can use Ocaml in real time.
+
+
+    ☆ You may try it out by running something like
+```
+       # 41 + 1 ;;
+```
+4. Open and edit the first Koan file, Koan01
+  - Attempt to answer the questions correctly. 
+  - Feel free to browse resources such as Ocaml documentation, found at https://caml.inria.fr/pub/docs/manual-ocaml/libref/
+
+
+    ☆ The most useful pages from this website are the following:
+
+
+    ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html
+
+
+    ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html
+
+
+    ☆ https://caml.inria.fr/pub/docs/manual-ocaml/libref/String.html
+5. Test your answers for Koan01
+  - Way 2
+
+
+    ☆ On the command line, run
+```
+      $ ocaml Koan01.ml
+```
+  - Way 1
+
+
+    ☆ In the OCaml REPL, run
+```
+       # #use "Koan01.ml" ;;
+```
+
+
+     ☆ Observe the feedback messages and proceed accordingly.
+6. Be persistent; do not give up along The Way.
