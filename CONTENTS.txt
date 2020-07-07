@@ -1,0 +1,27 @@
+(* Ocaml Koans Table of Contents *)
+
+01 - basic logic
+02 - strings
+03 - lists
+04 - conditionals
+05 - functions & type annotation
+00 - polym
+06 - pattern matching
+07 - error handling
+00 - debugging 
+00 - higher order functions
+07 - recursion
+08 - trees
+09 - reduce
+10 - custom types
+00 - referential trans
+00 - prooving urself 
+
+
+type annotation for sure... maybe early on. first?
+polymorphism
+	encapsulation?
+referential transparency
+higher-order functions
+inheretance?
+mutual recursion?
